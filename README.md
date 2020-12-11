@@ -21,4 +21,4 @@ Here are the results on my machine in seconds for 10000 runs:
 Analytic faster than Automatic 1 cost function           by 274.196%  
 Analytic faster than original Automatic 4 cost functions by 363.876%  
 
-This shows that even for small problems optimization time strongly depends on the way cost functions are implemented.  
+This shows that even for small problems optimization time strongly depends on the way cost functions are implemented, and whether analytic jacobians can be supplied or not.  
