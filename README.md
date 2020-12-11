@@ -18,7 +18,7 @@ Here are the results on my machine in seconds for 10000 runs:
 | mean time [s]  | 0.0000802201 | 0.00021996                | 0.000291902                |
 
 
-Analytic faster than auto one cost function       by 274.196%  
-Analytic faster than original four cost functions by 363.876%  
+Analytic faster than Automatic 1 cost function           by 274.196%  
+Analytic faster than original Automatic 4 cost functions by 363.876%  
 
 This shows that even for small problems optimization time strongly depends on the way cost functions are implemented.  
